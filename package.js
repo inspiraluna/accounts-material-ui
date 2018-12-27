@@ -12,3 +12,8 @@ Package.onUse(api => {
   api.use('ecmascript')
   api.mainModule('index.js', 'client')
 })
+
+
+Npm.depends({
+    '@material-ui/core':'3.7.1'
+});

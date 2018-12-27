@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Icon } from 'semantic-ui-react'
+import Button from '@material-ui/core/Button';
 
 const Submit = ({ text, onClick, disabled, icon, className, social }) => {
 
