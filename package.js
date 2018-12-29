@@ -15,5 +15,7 @@ Package.onUse(api => {
 
 
 Npm.depends({
-    '@material-ui/core':'3.7.1'
+    '@material-ui/core':'3.7.1',
+    'typeface-roboto':'0.0.54',
+    '@material-ui/icons':'3.0.1'
 });

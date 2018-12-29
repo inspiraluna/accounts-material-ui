@@ -20,12 +20,11 @@ const Submit = ({ text, onClick, disabled, icon, className, social }) => {
   /* Regular Button */
   return (
     <Button
-      content={text}
       onClick={onClick}
       disabled={disabled}
       icon={icon || null}
       className={className}
-    />
+    >{text}</Button>
   )
 }
 
