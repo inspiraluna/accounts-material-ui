@@ -102,22 +102,21 @@ class Errors extends React.Component {
         if(props.errors.length > 0) this.state = { open: true}; // this.setState({ open: true });
     }
 
-
-
     handleClose = (event, reason) => {
         //if (reason === 'clickaway') {
            // return;
         //}
         this.setState({ open: false});
     };
+
     componentDidUpdate(){
         if(this.props.errors.length > 0) this.state = { open: true};
     }
+
     render() {
             const {classes, errors} = this.props;
 
             return (
-
                 <Snackbar
                     anchorOrigin={{
                       vertical: 'bottom',
