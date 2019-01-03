@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Material UI Components for Useraccounts-React',
-  version: '0.0.6',
+  version: '0.0.7',
   name: 'inspiraluna:useraccounts-react-material-ui',
   git: 'https://github.com/inspiraluna/accounts-material-ui.git',
   documentation: null
